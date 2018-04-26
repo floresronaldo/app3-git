@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+ <head>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <meta charset="utf-8">
+ <title>Dia Mundial de la Bicicleta</title>
+ 
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema2.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <!-- <script="js/acciones.js"></script>-->
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+ 
+ <body onLoad="MM_preloadImages('imagenes/archivos/deporte2.jpg','imagenes/citlista.jpg','imagenes/animacion.jpg')">
+ 
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Dia Mundial de la Bicicleta</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Banner conmemorativo</h1>
+   <div>
+   <p>DIA MUNDIAL DE LA BICICLETA</p>
+   <br>
+   </div>
+   <div>
+   <img src="imagenes/banner.jpg" width="50%" height="50%" >
+   <img src="imagenes/cicloturismo2.jpg" width="50%" height="50%" >
+   </div>
+  </div>
+ </div>
+ <div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Historia de la Bicleta</h2>
+ <p>Se muestra la historia de la bicleta</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Utilizacion como medio de Transporte</h2>
+ <p>Se muestra como se ha utilizado</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Tipos de Bicicletas</h2>
+ <p>Muestra los tipos de bicicletas</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>5 Marcas importantes de bicicletas</h2>
+ <p>Maracas mas importantes</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Por que se celebra el Dia Mundial de la Bicicleta</h2>
+ <p>Celebracion del dia mundial de la bicicleta</p>
+ </a>
+ </li>
+ </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+</div>
+<div>
+<h4>Aplicación 3</h4>
+<h4>Ronaldo Vicuña Flores</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Dia Mundial De la Bicicleta</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+  <h2>Parece que hay un boom del uso de las bicicletas como medio de transporte en las grandes ciudades. Incluso en algunas poco preparadas para este medio de transporte ecológico, como Madrid. Los ciudadanos reivindican una forma de movilidad más sostenible y que no contamine. 
+  Pero la bicicleta tiene una larga historia, que ha pasado por diferentes etapas, en algunas de las cuales era un objeto imprescindible para el desarrollo de las comunidades.La bici es un aparato sencillo: básicamente, se compone de dos ruedas dispuestas en línea y un sistema de pedales para que la personas pueda transmitir la fuerza de propulsión. Además, un manillar para dirigir la bicicleta y un sillín para sentarse. El primer modelo de transmisión a través de una cadena (la bicicleta moderna) fue inventado en 1885. 
+  Primera bicicleta
+Pero hasta llegar a ese primer modelo moderno, el diseño pasó por varias fases. La primera bicicleta, fabricada con madera, se llamaba draisina porque la inventó Karl Drais en 1817. No tenía pedales: había que empujarla con los pies en el suelo. Un herrero escocés llamado Kirkpatrick Macmillan creó la primera máquina con pedales y dos ruedas en 1839. Sin embargo, esta rudimentaria bicicleta aún no tenía correa de transmisión.
+La perfección de la bicicleta
+En 1861, al francés Ernest Michaux se le ocurrió una original mejora: ubicar los pedales en la rueda delantera. No triunfó porque se necesitaba mucho equilibrio para manejarla, pero la idea de los pedales conectados a la rueda abrió el camino para llegar a la bicicleta tal y como la usamos actualmente. Para resolver el problema de la falta de equilibrio, en 1873, un inventor inglés llamado James Starley propuso una máquina con la rueda delantera mucho más grande que la trasera. En enero de 1887, el norteamericano Thomas Stevens comenzó el primer viaje en bicicleta alrededor del mundo. Partió de San Francisco y no llegaría hasta tres años después. Toda una aventura.
+El nacimiento de la bicicleta moderna
+Por fin, en 1885, aparece la Safety Bicycle (bicicleta de seguridad), inventada por John Kemp Starley. Tenía frenos, permitía una postura más natural y el ciclista estaba más cerca del suelo, por lo que las caídas no eran tan peligrosas. Después, se añadieron las ruedas con cámara de aire y la cadena de transmisión conectada a la rueda de atrás. Es la bicicleta moderna.<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/citlista.jpg',1)"><img src="imagenes/bicimex.jpg" width="900" height="591" id="Image10"></a> La bicicleta servía tanto para el campo como para la ciudad. Era un medio de transporte barato y accesible a cualquier persona. Además se puede arreglar con unos pocos conocimientos de mecánica. En Europa del norte, nunca ha dejado de utilizarse: países como Suiza, Alemania, los Países Bajos, algunas zonas de Polonia y los países escandinavos, y a pesar del frío y las malas condiciones meteorológicas, han sido siempre países defensores de este medio de transporte. También en China y la India ha sido durante años el principal medio de transporte.</h2>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+</div>
+   <h4>Aplicación 3,RVF</h4>
+   </div>
+  </div>
+
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1></h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+  <h2>En países europeos como España, Dinamarca, Polonia, Holanda y Francia,  y en algunos asiáticos como China, la bicicleta es un medio de transporte  muy común entre sus habitantes.  Y es que se cree que alrededor del mundo, 800 millones de bicicletas ruedan cada día, con ventajas no sólo para las personas sino para el cuidado del medio ambiente.
+
+Y aunque en Colombia  todavía somos  temerosos para usar la bicicleta como medio de transporte, su capital, Bogotá, fue escogida recientemente por la fundación española Eroski Consumer como la octava mejor ciudad en el mundo para transportarse en estos vehículos de dos ruedas.
+
+Entonces ¿por qué este medio de transporte no es tan usado por los ciudadanos? Muchos se quejan de la inseguridad de sus ciudades como obstáculo para usarla regularmente. Otros argumentan que la geografía de sus ciudades no son las adecuadas para andar en ellas y que incluso, los conductores de autos no respetan su paso y por eso, pueden ser vulnerables de sufrir un accidente de tránsito.
+
+Por estas y muchas más razones, el uso de la bicicleta en Colombia es, en su mayoría, de orden deportivo. Pero,  si no lo has pensado, usar tu bicicleta como medio de transporte, así sea para recorrer trayectos cortos, puede beneficiar  tu salud, al cuidado del medio ambiente y hasta tu bolsillo. Conoce las ventajas de usar la bicicleta como medio de transporte.</h2>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bicimex.jpg" alt="bicimex" title="bicimex" id="wows1_0"/></li>
+		<li><img src="data1/images/animacion.jpg" alt="animacion" title="animacion" id="wows1_1"/></li>
+		<li><img src="data1/images/citlista.jpg" alt="citlista" title="citlista" id="wows1_2"/></li>
+		<li><img src="data1/images/celebracion.jpg" alt="celebracion" title="celebracion" id="wows1_3"/></li>
+		<li><img src="data1/images/citlismo.jpg" alt="citlismo" title="citlismo" id="wows1_4"/></li>
+		<li><img src="data1/images/bici.jpg" alt="bici" title="bici" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/carreteracitlista.jpg" alt="jquery slider" title="carreteracitlista" id="wows1_6"/></a></li>
+		<li><img src="data1/images/ciclismo22.jpg" alt="ciclismo22" title="ciclismo22" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bicimex"><span><img src="data1/tooltips/bicimex.jpg" alt="bicimex"/>1</span></a>
+		<a href="#" title="animacion"><span><img src="data1/tooltips/animacion.jpg" alt="animacion"/>2</span></a>
+		<a href="#" title="citlista"><span><img src="data1/tooltips/citlista.jpg" alt="citlista"/>3</span></a>
+		<a href="#" title="celebracion"><span><img src="data1/tooltips/celebracion.jpg" alt="celebracion"/>4</span></a>
+		<a href="#" title="citlismo"><span><img src="data1/tooltips/citlismo.jpg" alt="citlismo"/>5</span></a>
+		<a href="#" title="bici"><span><img src="data1/tooltips/bici.jpg" alt="bici"/>6</span></a>
+		<a href="#" title="carreteracitlista"><span><img src="data1/tooltips/carreteracitlista.jpg" alt="carreteracitlista"/>7</span></a>
+		<a href="#" title="ciclismo22"><span><img src="data1/tooltips/ciclismo22.jpg" alt="ciclismo22"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+</div>
+
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+</div>
+   <h4>Aplicación 3,RVF</h4>
+   </div>
+  </div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>TIPOS DE BICICLETAS</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+  <ul type="circle">
+  <li>Bicicletas de Montaña (MTB)<br>
+  Las bicicletas de montaña (también conocidas como MTB) están diseñadas para “fuera de ruta” por lo que son bastante resistentes. Están equipadas con llantas anchas con dibujos marcados para mejorar el agarre en terrenos sueltos. Regularmente usan manubrios rectos o de doble altura.<br>
+  <li>Bicicletas de Ruta<br>
+  Son bicicletas orientadas a obtener velocidad en pavimento, de construcción más ligera que otras bicicleta, están dotadas con ruedas más grandes, delgadas y provistas de llantas angostas y con dibujo liso. Las bicis de ruta utilizan manubrios drop-bar para lograr una postura más aerodinámica.<br>
+  <li>Bicicletas Híbridas<br>
+  Las bicicletas híbridas son bastante versátiles ya que combinan características de las bicis de montaña y de las de ruta.Estas bicicletas nacieron como una solución para quienes necesitan una bicicleta para la ciudad, pero que tenga la flexibilidad de ser usada en diferentes terrenos.<br>
+  <li>Bicicletas Urbanas<br>
+  En este caso nos referimos como bicicleta urbana a las bicis estilo holandés (Dutch).
+Estas bicicletas fueron concebidas para la ciudad, por lo que son de construcción bastante solida tanto en su cuadro como en sus ruedas. Están perfectamente adecuadas para soportar las condiciones de una ciudad (baches, banquetas, topes, etc.)<br>
+  <li>Bicicletas plegables<br>
+  La gran mayoría de estas bicicletas usan ruedas pequeñas, siendo 16 y 20″ las más comunes, aunque es posible encontrar plegables con rodados más convencionales. Casi todas las plegables están diseñadas para uso urbano, no obstante existen modelos que aguantan viajes largos sin problemas.<br>
+  <li>Fixies y single speed<br>
+  Si bien su conceptp es el de ser una bicicleta sencilla, se han convertido en algo así como las bicicletas de culto para el ciclismo urbano. Su principal característica es su diseño simple y en muchos casos minimalista, sumamente eficientes y funcionales.br>
+  <li>Eléctricas<br>
+  En la actualidad se puede encontar versiones de pedaleo asistido (eléctricas) de casi cualquier tipo de bicicleta. Las bicicletas eléctricas son todas aquellas bicis que utilizan un motor para asistir el pedaleo. Su principal ventaja es a la hora de subir pendientes, pedalear contra el viento (hay lugares donde el viento es muy intenso) o para quien tiene que pedalear largas distancias para ir al trabajo y quiere reducir el esfuerzo. <br>
+  <a href="http://labicicleta.info/producto" target="_self"> ¿QUIERES VER UNA? </a> 
+   </li></h2></div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+</div>
+   <h4>Aplicación 3,RVF</h4>
+   </div>
+  </div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>5 MARCAS MAS IMPORTANTES</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+  <h2> 
+  <li> 1-Specialized  
+  <li>  2-Scott
+  <li>3-Trek
+  <li>4-Giant
+  <li>5-Canyon
+  </li>
+  </h2>
+ 
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/citlista.jpg',1)"><img src="imagenes/5bicicletas.jpg" width="311" height="162" id="Image9"></a></div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+</div>
+   <h4>Aplicación 3,RVF</h4>
+  </div>
+  </div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>CELEBRACION DEL DIA MUNDIAL DE LA BICLETA</h1>
+ </div>
+  <div data-role="content" align="justify">
+  <div>
+  <h2>El 19 de abril, se celebra el Día Mundial de la Bicicleta con el objetivo de promocionar este medio de transporte y llamar la atención sobre los derechos de los ciclistas.
+
+Se celebra este día, porque el 19 de abril de 1943 el doctor Albert Hofmann, padre del LSD, ingirió a propósito 250 µg de LSD.<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/animacion.jpg',1)"><img src="imagenes/citlismo.jpg" width="450" height="317" id="Image11"></a> <br>Tras ingerir la sustancia, Hofmann sintió que le costaba hablar de forma inteligible y pidió a su asistente de laboratorio, que estaba al tanto del experimento, que le acompañase en su viaje a casa en bicicleta, pues, por las restricciones del período de guerra, no había automóviles disponibles.
+
+Durante el viaje a casa, el estado de Hofmann se agravó, posteriormente escribiría en su diario que todo lo que había en su campo de visión ondulaba, distorsionado como una imagen en un espejo cóncavo. Aunque avanzaba velozmente, tuvo la sensación paradójica de que permanecía inmóvil. Cuando llegó a casa, llamó a un doctor y pidió a su vecina algo de leche, creyendo que le ayudaría a recuperarse.
+
+Cuando llegó el médico, no encontró ningún síntoma físico anormal, salvo las pupilas extremadamente dilatadas. Tras pasar varias horas aterrorizado, convencido de que un demonio había poseído su cuerpo, de que su vecina era una bruja y de que el mobiliario de su casa le amenazaba, el doctor Hofmann pensó que había enloquecido por completo.
+
+Durante su ‘viaje’, las impresiones acústicas (como el ruido de un automóvil que pasaba) se transformaban en imágenes. Hofmann, al día siguiente despertó fresco y con la mente clara, aunque con cierto cansancio corporal. Desayunó con una sensación de bienestar y vida renovada, y encontró la comida deliciosa. Mientras caminaba por el jardín, notó que todos sus sentidos “vibraban con una sensibilidad superior”, que duró durante todo el día.
+
+Desde entonces, todos los años, el 19 de Abril en todo el mundo la gente coge su bici para rememorar aquel “primer viaje” en bicicleta del doctor Hofmann.
+
+En la actualidad, existen unas 800 millones de bicicletas en el mundo y son utilizadas como medio de transporte principal o como vehículo de ocio. De cara al cuidado de las personas representa un completo ejercicio físico mientras que para el medio ambiente, su uso significa una disminución de las emisiones de CO2 a la atmósfera y una contribución para frenar el cambio climático.
+
+En este día se celebran circuitos en la calle, desfiles de bicicletas, conciertos verdes, competencias de ensayos, carteles en las escuelas y plantaciones de árboles. ¿A qué esperas en coger tu bicicleta y salir a la calle?
+
+</h2>
+  
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+</div>
+   <h4>Aplicación 3,RVF</h4>
+  </div>
+  </div>
+</body>
+</html>
